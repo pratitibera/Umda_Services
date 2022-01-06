@@ -1,4 +1,13 @@
 @media only screen and (min-width: 768px) {
+	.clientSection{
+		padding: 150px 150px 50px 150px;
+	}
+	.footer-bg ul{
+		border-left: 1px solid #FFFFFF;
+	}
+	.footer-social i{
+		margin-right: 20px!important;
+	}
 	
 }
 
@@ -12,6 +21,9 @@
 	}
 	.mfo-30 {
 		font-size: 30px!important;
+	}
+	.mfo-28 {
+		font-size: 28px!important;
 	}
 	.mfo-25 {
 		font-size: 25px!important;
@@ -58,9 +70,19 @@
 	.mow-40 {
 		width: 40%!important;
 	}
+	.mvh-25{
+		height: 25vh;
+	}
 	.carousel-inner,
 	.carousel-item,
 	.carousel-item img {
 		height: 25vh;
+	}
+	.clientSection {
+	    padding: 10px 10px 5px 10px;
+	}
+	.footer-social{
+		padding: 0px 56px;
+		justify-content: space-between;
 	}
 }

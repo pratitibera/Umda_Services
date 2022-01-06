@@ -14,11 +14,15 @@ ul {
 .w-70 {
 	width: 70%;
 }
-
+.w-90{
+	width: 90%;
+}
 .w-100 {
 	width: 100%;
 }
-
+.fo-10 {
+	font-size: 10px;
+}
 .fo-12 {
 	font-size: 12px;
 }
@@ -70,7 +74,9 @@ ul {
 .fo-30 {
 	font-size: 30px!important;
 }
-
+.fo-32 {
+	font-size: 32px;
+}
 .fo-34 {
 	font-size: 34px;
 }
@@ -118,9 +124,10 @@ ul {
 
 .website-button {
 	padding: 5px 20px;
-	background-color: #8DC341;
-	color: #000;
+	background-color: #105CA7;
+	color: #fff;
 	font-weight: 600;
+	border-radius: 20px;
 }
 
 .bg-grey {
@@ -281,9 +288,6 @@ line-height: 21px;
 	width: 100%;
 	height: 100%;
 }
-.clientSection{
-	padding: 150px 150px 50px 150px;
-}
 
 .clientimage{
 	display: flex;
@@ -295,6 +299,53 @@ line-height: 21px;
 .clientSection .col-sm-2{
 	padding: 0px 5px;
 }
+/* Services section */
+.servicesSection .col-sm-4{
+	padding: 0px 5px;
+}
+.servicesSection_overlay{
+	position: absolute; 
+  bottom: 0px; 
+  top: 0px;
+  left: 5px;
+  right: 0px;
+  width: 97.5%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  padding: 30px;
+  /* text-align: center; */
+}
+.servicesSection_overlay1{
+  background: rgba(213, 0, 102, 0.8);
+}
+.servicesSection_overlay2{
+	background: rgba(26, 0, 189, 0.8);
+}
+.servicesSection_overlay3{
+	background: rgba(182, 186, 0, 0.8);
+}
+.servicesSection_overlay4{
+	background: rgba(3, 164, 0, 0.7);
+}
+.servicesSection_overlay5{
+	background: rgba(151, 0, 164, 0.7);
+}
+.servicesSection_overlay6{
+	background: rgba(0, 164, 154, 0.8);
+}
+.sericeIcon{
+	border-radius: 50%;
+    border: 1px solid #fff;
+    width: 80px;
+    height: 80px;
+    padding: 18px;
+    margin: auto;
+}
+/* Company facts */
+.companyfacts{
+	padding: 100px 0px 50px 0px;
+}
 .footer-bg{
 	background: #BBC7D3;
 	padding: 50px 50px 0px 50px;
@@ -303,10 +354,6 @@ line-height: 21px;
 .footer-bg .footer-links{
 	border-bottom: 1px solid #FFFFFF;
 	padding-bottom: 40px;
-}
-
-.footer-bg ul{
-	border-left: 1px solid #FFFFFF;
 }
 .footer-bg li{
 	color: #03407D;
