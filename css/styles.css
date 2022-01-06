@@ -131,7 +131,7 @@ ul {
 }
 
 .bg-grey {
-	background-color: #EAEFE2;
+	background-color: #E5E5E5;
 }
 
 .bg-green{
@@ -281,7 +281,9 @@ line-height: 21px;
 	height: 100vh;
 } */
 
-
+.website-section .fo-40{
+		margin-bottom: 30px;
+	}
 /* Image slider */
 
 .carousel-inner img {
@@ -343,9 +345,7 @@ line-height: 21px;
     margin: auto;
 }
 /* Company facts */
-.companyfacts{
-	padding: 100px 0px 50px 0px;
-}
+
 .footer-bg{
 	background: #BBC7D3;
 	padding: 50px 50px 0px 50px;

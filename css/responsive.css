@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
-	.clientSection{
-		padding: 150px 150px 50px 150px;
+	.website-section{
+		padding: 90px 150px 75px 150px;
 	}
 	.footer-bg ul{
 		border-left: 1px solid #FFFFFF;
@@ -78,8 +78,8 @@
 	.carousel-item img {
 		height: 25vh;
 	}
-	.clientSection {
-	    padding: 10px 10px 5px 10px;
+	.website-section {
+	    padding: 20px 10px 35px 10px;
 	}
 	.footer-social{
 		padding: 0px 56px;
