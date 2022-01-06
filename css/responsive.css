@@ -1,14 +1,26 @@
 @media only screen and (min-width: 768px) {
-	.website-section{
+	.website-section {
 		padding: 90px 150px 75px 150px;
 	}
-	.footer-bg ul{
+	.footer-bg ul {
 		border-left: 1px solid #FFFFFF;
 	}
-	.footer-social i{
+	.footer-social i {
 		margin-right: 20px!important;
 	}
-	
+	.ads_services .pl-sm-0 .servicesSection_overlay {
+		background: rgba(0, 0, 0, 0.5);
+		left: 0;
+		width: 91%;
+		text-align: center;
+	}
+	.ads_services .pl-sm-5 .servicesSection_overlay {
+		background: rgba(0, 0, 0, 0.5);
+		right: 0;
+		left: 3rem;
+		width: 91%;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -70,7 +82,7 @@
 	.mow-40 {
 		width: 40%!important;
 	}
-	.mvh-25{
+	.mvh-25 {
 		height: 25vh;
 	}
 	.carousel-inner,
@@ -79,10 +91,23 @@
 		height: 25vh;
 	}
 	.website-section {
-	    padding: 20px 10px 35px 10px;
+		padding: 20px 10px 35px 10px;
 	}
-	.footer-social{
+	.footer-social {
 		padding: 0px 56px;
 		justify-content: space-between;
+	}
+	.sericesIcon {
+		width: 60px;
+		height: 60px;
+		padding: 12px;
+		margin-top: 60px;
+	}
+	.ads_services .servicesSection_overlay {
+		background: rgba(0, 0, 0, 0.5);
+		right: 0;
+		left: 15px;
+		width: 91%;
+		text-align: center;
 	}
 }
