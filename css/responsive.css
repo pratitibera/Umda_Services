@@ -21,6 +21,9 @@
 		width: 91%;
 		text-align: center;
 	}
+	.about-page-cover-image{
+		margin-top: 75px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -109,5 +112,9 @@
 		left: 15px;
 		width: 91%;
 		text-align: center;
+	}
+	.about-page-cover-image{
+		margin-top: 70px;
+		height: 25vh;
 	}
 }
