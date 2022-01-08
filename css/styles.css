@@ -413,17 +413,6 @@ nav {
 }
 
 
-/* Case study */
-
-.casestudySection .col-sm-6.left {
-	padding: 75px 50px 0px 100px;
-}
-
-.casestudySection .col-sm-6.right {
-	padding: 75px 100px 0px 50px;
-}
-
-
 /* Services page */
 
 .sericesIcon {
@@ -441,4 +430,20 @@ nav {
 
 .aboutPage .pinkicon {
 	color: #D40066;
+}
+.openings_cover_overlay{
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+thead{
+	background-color: #8DC341;
+}
+th{
+	font-weight: 800;
+}
+.p-10{
+	padding: 7px;
 }

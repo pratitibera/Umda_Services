@@ -24,6 +24,21 @@
 	.about-page-cover-image{
 		margin-top: 75px;
 	}
+	/* Case study */
+
+	.casestudySection .col-sm-6.left {
+		padding: 75px 50px 0px 100px;
+	}
+
+	.casestudySection .col-sm-6.right {
+		padding: 75px 100px 0px 50px;
+	}
+	.openings_container{
+		padding: 50px 250px;
+	}
+	.openings_container_image{
+		padding: 0px 40px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -82,6 +97,9 @@
 	.mow-90 {
 		width: 90%!important;
 	}
+	.mow-60 {
+		width: 60%!important;
+	}
 	.mow-40 {
 		width: 40%!important;
 	}
@@ -116,5 +134,11 @@
 	.about-page-cover-image{
 		margin-top: 70px;
 		height: 25vh;
+	}
+	.openings_container{
+		padding: 50px 0px;
+	}
+	.openings_container_image{
+		padding: 0px 30px;
 	}
 }
