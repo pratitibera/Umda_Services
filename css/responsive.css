@@ -2,6 +2,9 @@
 	.website-section {
 		padding: 90px 150px 75px 150px;
 	}
+	.website-section2 {
+		padding: 90px 100px 75px 100px;
+	}
 	.footer-bg ul {
 		border-left: 1px solid #FFFFFF;
 	}
@@ -21,26 +24,36 @@
 		width: 91%;
 		text-align: center;
 	}
-	.about-page-cover-image{
+	.about-page-cover-image {
 		margin-top: 75px;
 	}
 	/* Case study */
-
-	.casestudySection .col-sm-6.left {
-		padding: 75px 50px 0px 100px;
+	.casestudySection .left {
+		/* padding: 75px 50px 0px 100px; */
+		margin-right: 100px!important;
 	}
-
-	.casestudySection .col-sm-6.right {
-		padding: 75px 100px 0px 50px;
+	.casestudySection .right {
+		/* padding: 75px 100px 0px 50px; */
+		margin-left: 100px!important;
 	}
-	.openings_container{
+	.openings_container {
 		padding: 50px 250px;
 	}
-	.openings_container_image{
+	.openings_container_image {
 		padding: 0px 40px;
 	}
-	.contact-form{
-		padding: 0px 150px;
+	.contact-form {
+		margin-top: 40px;
+	}
+	.contact-form .col-sm-3::after {
+		content: '';
+		position: absolute;
+		height: 80%;
+		width: 2px;
+		right: -15px;
+		top: 50%;
+		transform: translateY(-50%);
+		background: #afafb6;
 	}
 }
 
@@ -137,20 +150,27 @@
 		width: 91%;
 		text-align: center;
 	}
-	.about-page-cover-image{
+	.about-page-cover-image {
 		margin-top: 70px;
 		height: 25vh;
 	}
-	.openings_container{
+	.openings_container {
 		padding: 50px 0px;
 	}
-	.openings_container_image{
+	.openings_container_image {
 		padding: 0px 30px;
 	}
-	.contact_cover_overlay{
+	.contact_cover_overlay {
 		padding: 0px!important;
 	}
-	.contact_cover_overlay .col-4{
+	.contact_cover_overlay .col-4 {
 		padding: 0;
+	}
+	.contact-form {
+		margin-top: 80px;
+	}
+	.contact-form .col-sm-6,
+	.contact-form .col-sm-12 {
+		padding: 0px;
 	}
 }
