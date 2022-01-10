@@ -39,6 +39,9 @@
 	.openings_container_image{
 		padding: 0px 40px;
 	}
+	.contact-form{
+		padding: 0px 150px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -91,6 +94,9 @@
 	.mfo-11 {
 		font-size: 11px!important;
 	}
+	.mfo-10 {
+		font-size: 10px!important;
+	}
 	.mow-100 {
 		width: 100%!important;
 	}
@@ -140,5 +146,11 @@
 	}
 	.openings_container_image{
 		padding: 0px 30px;
+	}
+	.contact_cover_overlay{
+		padding: 0px!important;
+	}
+	.contact_cover_overlay .col-4{
+		padding: 0;
 	}
 }
