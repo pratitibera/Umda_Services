@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 /* Globacl classes */
 
 ul {
@@ -108,6 +107,9 @@ ul {
 
 .fo-50 {
 	font-size: 50px;
+}
+.fo-80 {
+	font-size: 80px;
 }
 
 .fw-400 {
@@ -340,6 +342,23 @@ nav {
 
 /* Services section */
 
+.services_count{
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+}
+.services_count_slash_div{
+	width: 5px; 
+	margin: 20px 60px 0px 60px;
+}
+.services_count_slash_div div{
+	width: 1px;
+    height: 160px;
+    background: #868686;
+    -webkit-transform: rotate(26deg);
+    -ms-transform: rotate(26deg);
+    transform: rotate(26deg);
+}
+
 .servicesSection .col-sm-4 {
 	padding: 0px 5px;
 }
@@ -348,15 +367,24 @@ nav {
 	position: absolute;
 	bottom: 0px;
 	top: 0px;
-	left: 5px;
+	left: 0px;
 	right: 0px;
-	width: 97.5%;
-	transition: .5s ease;
+	width: 100%;
 	opacity: 1;
 	color: white;
 	padding: 30px;
 	/* text-align: center; */
 }
+.ads_services .col-sm-4 .servicesSection_overlay,
+.feature_services{
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.feature_services_readmore{
+		position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-bottom: 1px solid #fff;
+	}
 
 .servicesSection_overlay1 {
 	background: rgba(213, 0, 102, 0.8);
@@ -513,4 +541,10 @@ th {
 
 .contact-form button {
 	border-radius: 5px;
+}
+
+
+
+#servicesSection .owl-item, #servicesSection .owl-stage, #servicesSection .owl-stage-outer, #servicesSection{
+	height: 100%;
 }

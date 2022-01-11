@@ -11,19 +11,13 @@
 	.footer-social i {
 		margin-right: 20px!important;
 	}
-	.ads_services .pl-sm-0 .servicesSection_overlay {
-		background: rgba(0, 0, 0, 0.5);
-		left: 0;
-		width: 91%;
-		text-align: center;
-	}
-	.ads_services .pl-sm-5 .servicesSection_overlay {
+	/* .ads_services .pl-sm-5 .servicesSection_overlay {
 		background: rgba(0, 0, 0, 0.5);
 		right: 0;
 		left: 3rem;
 		width: 91%;
 		text-align: center;
-	}
+	} */
 	.about-page-cover-image {
 		margin-top: 75px;
 	}
@@ -142,13 +136,6 @@
 		height: 60px;
 		padding: 12px;
 		margin-top: 60px;
-	}
-	.ads_services .servicesSection_overlay {
-		background: rgba(0, 0, 0, 0.5);
-		right: 0;
-		left: 15px;
-		width: 91%;
-		text-align: center;
 	}
 	.about-page-cover-image {
 		margin-top: 70px;

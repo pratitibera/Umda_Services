@@ -28,26 +28,17 @@ $(document).ready(function () {
     // AOS Instance
     AOS.init();
 
-    $('#blogsSection').owlCarousel({
+    $('#servicesSection').owlCarousel({
         loop: true,
         autoplay: true,
         autoPlaySpeed: 1000,
         autoplayHoverPause: true,
         dots: false,
-        nav: true,
-        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
+        nav: false,
+        // navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
         responsive: {
             0: {
                 items: 1
-            },
-            320: {
-                items: 1
-            },
-            560: {
-                items: 2
-            },
-            960: {
-                items: 3
             }
         }
     });
