@@ -6,7 +6,7 @@
 		padding: 90px 100px 75px 100px;
 	}
 	.footer-bg ul {
-		border-left: 1px solid #FFFFFF;
+		border-left: 1px solid #03407D;
 	}
 	.footer-social i {
 		margin-right: 20px!important;
@@ -52,6 +52,10 @@
 	nav{
 		padding: 10px 50px!important;
 	}
+	.servicesSection_overlayabout{
+	background: rgba(7, 84, 160, 0.76);
+	padding: 65px 140px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -163,4 +167,8 @@
 	.contact-form .col-sm-12 {
 		padding: 0px;
 	}
+	.servicesSection_overlayabout{
+	background: rgba(7, 84, 160, 0.76);
+	padding: 10px;
+}
 }

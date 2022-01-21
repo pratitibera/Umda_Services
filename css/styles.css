@@ -140,11 +140,11 @@ nav .active {
 }
 
 .website-button {
-	padding: 5px 20px;
+	padding: 8px 20px;
 	background-color: #105CA7;
 	color: #fff;
 	font-weight: 600;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .website-bordered-button {
@@ -427,12 +427,12 @@ nav {
 /* Company facts */
 
 .footer-bg {
-	background: #BBC7D3;
+	background: #EDF6FF;
 	padding: 50px 50px 0px 50px;
 }
 
 .footer-bg .footer-links {
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #03407D;
 	padding-bottom: 40px;
 }
 
