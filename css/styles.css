@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
 /* Globacl classes */
 
 ul {
@@ -286,16 +287,16 @@ nav {
 }
 
 .nav-item {
-	padding: 0px 29px;
+	padding: 0px 20px;
 }
 
 .nav-item a {
-	color: #03407D;
+	color: #0756A4;
 	text-transform: uppercase;
-	font-family: Roboto;
+	font-family: Montserrat;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
+	font-weight: 600;
+	font-size: 16px;
 	line-height: 21px;
 }
 
@@ -303,12 +304,8 @@ nav {
 	color: #8DC341;
 }
 
-.navcontact {
-	border-left: 1px solid #000000;
-}
-
 .nav-bottom {
-	margin-top: 90px;
+	margin-top: 85px;
 	padding: 8px 0px;
 }
 
@@ -329,17 +326,6 @@ nav {
 	height: 100%;
 }
 
-.clientimage {
-	display: flex;
-	justify-content: center;
-	padding: 50px 10px;
-	background-color: #fff;
-	height: 100%;
-}
-
-.clientSection .col-sm-2 {
-	padding: 0px 5px;
-}
 
 
 /* Services section */
@@ -361,10 +347,18 @@ nav {
     transform: rotate(26deg);
 }
 
-.servicesSection .col-sm-4 {
-	padding: 0px 5px;
+.servicesCard.green{
+	background-color: #68AD06;
+	padding: 15px;
+	color: #fff;
+	min-height: 350px;
 }
-
+.servicesCard.blue{
+	background-color: #0756A4;
+	padding: 15px;
+	color: #fff;
+	min-height: 350px;
+}
 .servicesSection_overlay {
 	position: absolute;
 	bottom: 0px;
@@ -420,7 +414,7 @@ nav {
 	width: 60px;
 	height: 60px;
 	padding: 8px;
-	margin: auto;
+	margin: 10px auto;
 }
 
 
@@ -438,8 +432,8 @@ nav {
 
 .footer-bg li {
 	color: #03407D;
-	font-size: 15px;
-	font-weight: 500;
+	font-size: 14px;
+	font-weight: 600;
 	padding: 8px 6px;
 	text-align: center;
 }
