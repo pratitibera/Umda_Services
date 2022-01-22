@@ -63,6 +63,9 @@
 .servicesSection .col-sm-3{
 	padding: 0px 8px;
 }
+.servicesText{
+	padding: 120px 150px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -187,4 +190,8 @@
 .aboutsection{
 		padding: 90px 0px;
 	}
+	.servicesText{
+	padding: 30px;
+	text-align: justify;
+}
 }
