@@ -405,12 +405,18 @@ nav {
 	padding-bottom: 40px;
 }
 
-.footer-bg li {
+.footer-bg li{
 	color: #03407D;
 	font-size: 14px;
 	font-weight: 600;
 	padding: 8px 6px;
 	text-align: center;
+}
+
+.footer-bg li a{
+	color: #03407D;
+	font-size: 14px;
+	font-weight: 600;
 }
 
 
