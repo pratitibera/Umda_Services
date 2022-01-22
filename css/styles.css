@@ -486,8 +486,8 @@ th {
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
-	/* background: #F0F1F8; */
-	border: none;
+	background: transparent;
+	border: 1px solid #000;
 	box-sizing: border-box;
 	/* border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px; */
@@ -496,7 +496,7 @@ th {
 	height: 40px;
 	resize: none;
 	font-size: 14px;
-	border-left: 3px solid #105CA7;
+	/* border-left: 3px solid #105CA7; */
 }
 
 .contact-form input:focus,
@@ -504,7 +504,8 @@ th {
 .contact-form select:focus {
 	border: none;
 	outline: none;
-	border-left: 3px solid #105CA7;
+	border: 1px solid #000;
+	/* border-left: 3px solid #105CA7; */
 }
 
 .contact-form button {
