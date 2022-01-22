@@ -373,43 +373,6 @@ nav {
 	padding: 15px;
 	/* text-align: center; */
 }
-.ads_services .col-sm-4 .servicesSection_overlay,
-.feature_services{
-		background: rgba(0, 0, 0, 0.5);
-	}
-	.feature_services_readmore{
-		position: absolute;
-    bottom: 30px;
-    right: 30px;
-    border-bottom: 1px solid #fff;
-	}
-
-.servicesSection_overlay1 {
-	background: rgba(213, 0, 102, 0.8);
-}
-
-.servicesSection_overlay2 {
-	background: rgba(26, 0, 189, 0.8);
-}
-
-.servicesSection_overlay3 {
-	background: rgba(182, 186, 0, 0.8);
-}
-
-.servicesSection_overlay4 {
-	background: rgba(3, 164, 0, 0.7);
-}
-
-.servicesSection_overlay5 {
-	background: rgba(151, 0, 164, 0.7);
-}
-
-.servicesSection_overlay6 {
-	background: rgba(0, 164, 154, 0.8);
-}
-.servicesSection_overlay7{
-	background: rgba(3, 96, 125, 0.8);
-}
 .sericeIcon {
 	border-radius: 50%;
 	border: 1px solid #fff;
@@ -419,7 +382,17 @@ nav {
 	margin: 10px auto;
 }
 
-
+.solution-container{
+	background-color: #3E79B4;
+	max-width: 400px;
+	margin: auto;
+	color: #fff;
+	padding: 10px 18px;
+}
+.solution-div{
+	border-left: 6px solid #fff;
+	padding: 10px;
+}
 /* Company facts */
 
 .footer-bg {
@@ -452,13 +425,19 @@ nav {
 
 .sericesIcon {
 	border-radius: 50%;
-	width: 65px;
-	height: 65px;
-	padding: 18px;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
 	margin: auto;
-	margin-top: 120px;
+	margin-top: 50px;
+	background-color: #03407D;
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
-
+.servicesText{
+	padding: 120px 150px;
+}
 .aboutPage .blueicon {
 	color: #105CA7;
 }
