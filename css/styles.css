@@ -482,24 +482,15 @@ th {
 	margin-bottom: 40px;
 }
 
-.contact-form i,
-.contact-form .col-sm-9 .fo-26 {
-	color: #03407D;
-	margin-bottom: 10px;
-}
-
-.contact-form .fo-14 {
-	color: #51585f;
-}
 
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
-	background: #F0F1F8;
+	/* background: #F0F1F8; */
 	border: none;
 	box-sizing: border-box;
-	border-top-right-radius: 6px;
-	border-bottom-right-radius: 6px;
+	/* border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; */
 	width: 100%;
 	padding: 6px 12px;
 	height: 40px;
