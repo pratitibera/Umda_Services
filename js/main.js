@@ -67,6 +67,24 @@ $(document).ready(function () {
             }
         }
     });
+
+    $('#clients').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoPlaySpeed: 1000,
+        autoplayHoverPause: true,
+        dots: false,
+        nav: true,
+        navText: [$('.owl-navigation-clients .owl-nav-prev'), $('.owl-navigation-clients .owl-nav-next')],
+        responsive: {
+            0: {
+                items: 1
+            },
+            960: {
+                items: 6
+            }
+        }
+    });
 });
 
 $(".navbar-nav > li").click(function () {
