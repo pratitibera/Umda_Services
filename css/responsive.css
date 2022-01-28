@@ -198,6 +198,9 @@
 		color: #fff;
 		margin-top: 7px;
 	}
+	.itemsmob span{
+		display: block;
+	}
 }
 
 @media only screen and (max-width: 400px) {

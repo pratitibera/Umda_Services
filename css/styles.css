@@ -449,13 +449,10 @@ nav {
 	transform: scale(1.1);
 }
 
-.itemsdesktop {
-	padding: 0px 350px;
-}
-
 .itemsdesktop span {
 	color: #fff;
 	cursor: pointer;
+	font-size: 13px;
 }
 
 .itemsdesktop .active {
