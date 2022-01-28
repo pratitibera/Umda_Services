@@ -11,6 +11,16 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
+$("#desktop_work > div > a").click(function(){
+  $(".worksection").addClass("d-none");
+  var id = $(this).attr('href');
+  $(id).removeClass("d-none");
+});
+$("#mobile_work > li > a").click(function(){
+  $(".worksection").addClass("d-none");
+  var id = $(this).attr('href');
+  $(id).removeClass("d-none");
+});
 jQuery("#backtotop").click(function () {
     jQuery("body,html").animate({
         scrollTop: 0
