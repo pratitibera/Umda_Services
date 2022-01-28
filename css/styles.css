@@ -93,9 +93,11 @@ ul {
 .fo-34 {
 	font-size: 34px;
 }
-.fo-35{
+
+.fo-35 {
 	font-size: 35px;
 }
+
 .fo-36 {
 	font-size: 36px;
 }
@@ -111,6 +113,7 @@ ul {
 .fo-50 {
 	font-size: 50px;
 }
+
 .fo-80 {
 	font-size: 80px;
 }
@@ -135,9 +138,11 @@ ul {
 nav .active {
 	color: #8DC341!important;
 }
-.text-white a{
+
+.text-white a {
 	color: #fff;
 }
+
 .txtco {
 	color: #51585f;
 	line-height: 1.9;
@@ -170,11 +175,14 @@ nav .active {
 }
 
 .bg-themeblue {
-	background-color: /* #03407D */#0756A4;
+	background-color: /* #03407D */
+	#0756A4;
 }
-.txtblue{
+
+.txtblue {
 	color: #03407D;
 }
+
 .cursorPointer {
 	cursor: pointer;
 }
@@ -330,7 +338,9 @@ nav {
 	height: 100%;
 }
 
+
 /* Client section */
+
 #clients .owl-nav {
 	position: absolute;
 	top: 45%;
@@ -358,43 +368,48 @@ nav {
 	height: 50px;
 	box-shadow: 6px 4px 16px rgba(0, 0, 0, 0.25);
 }
+
 #clients .owl-prev .owl-nav-prev,
-#clients .owl-next .owl-nav-next{
+#clients .owl-next .owl-nav-next {
 	color: #0756A4;
 }
 
 
 /* Services section */
 
-.services_count{
+.services_count {
 	font-family: 'Bodoni Moda', serif;
 	text-align: center;
 }
-.services_count_slash_div{
-	width: 5px; 
+
+.services_count_slash_div {
+	width: 5px;
 	margin: 20px 60px 0px 60px;
 }
-.services_count_slash_div div{
+
+.services_count_slash_div div {
 	width: 1px;
-    height: 160px;
-    background: #868686;
-    -webkit-transform: rotate(26deg);
-    -ms-transform: rotate(26deg);
-    transform: rotate(26deg);
+	height: 160px;
+	background: #868686;
+	-webkit-transform: rotate(26deg);
+	-ms-transform: rotate(26deg);
+	transform: rotate(26deg);
 }
 
-.servicesCard.green{
+.servicesCard.green {
 	background-color: #68AD06;
 	padding: 15px;
 	color: #fff;
 	min-height: 350px;
 }
-.servicesCard.blue{
+
+.servicesCard.blue {
 	background-color: #0756A4;
 	padding: 15px;
 	color: #fff;
 	min-height: 350px;
 }
+
 .servicesSection_overlay {
 	position: absolute;
 	bottom: 0px;
@@ -407,6 +422,7 @@ nav {
 	padding: 15px;
 	/* text-align: center; */
 }
+
 .sericeIcon {
 	border-radius: 50%;
 	border: 1px solid #fff;
@@ -416,21 +432,100 @@ nav {
 	margin: 10px auto;
 }
 
-.solution-container{
+.solution-container {
 	background-color: #3E79B4;
 	max-width: 400px;
 	margin: auto;
 	color: #fff;
 	padding: 10px 18px;
 }
-.solution-div{
+
+.solution-div {
 	border-left: 6px solid #fff;
 	padding: 10px;
 }
 
-.latest_work img:hover{
+.latest_work img:hover {
 	transform: scale(1.1);
 }
+
+.itemsdesktop {
+	padding: 0px 350px;
+}
+
+.itemsdesktop span {
+	color: #fff;
+	cursor: pointer;
+}
+
+.itemsdesktop .active {
+	color: #8DC341;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	padding: 0px 150px;
+}
+
+.gallery .image {
+	width: calc(100% / 4);
+	padding: 7px;
+}
+
+.gallery .image span {
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery .image img {
+	width: 100%;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+}
+
+.gallery .image:hover img {
+	transform: scale(1.1);
+}
+
+.gallery .image.hide {
+	display: none;
+}
+
+.gallery .image.show {
+	animation: animate 0.4s ease;
+}
+
+@keyframes animate {
+	0% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 1000px) {
+	.gallery .image {
+		width: calc(100% / 3);
+	}
+}
+
+@media (max-width: 800px) {
+	.gallery .image {
+		width: calc(100% / 2);
+	}
+}
+
+@media (max-width: 600px) {
+	.gallery .image {
+		width: 100%;
+	}
+}
+
+
 /* Company facts */
 
 .footer-bg {
@@ -443,7 +538,7 @@ nav {
 	padding-bottom: 40px;
 }
 
-.footer-bg li{
+.footer-bg li {
 	color: #03407D;
 	font-size: 14px;
 	font-weight: 600;
@@ -451,7 +546,7 @@ nav {
 	text-align: center;
 }
 
-.footer-bg li a{
+.footer-bg li a {
 	color: #03407D;
 	font-size: 14px;
 	font-weight: 600;
@@ -526,7 +621,6 @@ th {
 	margin-bottom: 40px;
 }
 
-
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
@@ -556,8 +650,9 @@ th {
 	border-radius: 5px;
 }
 
-
-
-#servicesSection .owl-item, #servicesSection .owl-stage, #servicesSection .owl-stage-outer, #servicesSection{
+#servicesSection .owl-item,
+#servicesSection .owl-stage,
+#servicesSection .owl-stage-outer,
+#servicesSection {
 	height: 100%;
 }

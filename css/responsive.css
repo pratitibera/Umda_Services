@@ -5,7 +5,7 @@
 	.website-section2 {
 		padding: 90px 100px 75px 100px;
 	}
-	.aboutsection{
+	.aboutsection {
 		padding: 150px 100px 60px 100px;
 	}
 	.footer-bg ul {
@@ -47,19 +47,18 @@
 		transform: translateY(-50%);
 		background: #afafb6;
 	}
-	nav{
+	nav {
 		padding: 10px 85px!important;
 	}
-	
-.clientsection{
-	padding: 30px 60px;
-}
-.servicesSection .col-sm-3{
-	padding: 0px 8px;
-}
-.servicesText{
-	padding: 120px 150px;
-}
+	.clientsection {
+		padding: 30px 60px;
+	}
+	.servicesSection .col-sm-3 {
+		padding: 0px 8px;
+	}
+	.servicesText {
+		padding: 120px 150px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -171,32 +170,39 @@
 	.contact-form .col-sm-12 {
 		padding: 0px;
 	}
-	
-.clientsection{
-	padding: 20px 10px;
-}
-.servicesCard.green, .servicesCard.blue{
-	min-height: 250px;
-}
-.footer-bg {
-	padding: 50px 10px 0px 10px;
-}
-.aboutsection{
+	.clientsection {
+		padding: 20px 10px;
+	}
+	.servicesCard.green,
+	.servicesCard.blue {
+		min-height: 250px;
+	}
+	.footer-bg {
+		padding: 50px 10px 0px 10px;
+	}
+	.aboutsection {
 		padding: 90px 0px;
 	}
-	.servicesText{
-	padding: 30px;
-	text-align: justify;
-}
-.nav-bottom {
-	margin-top: 105px;
-	padding: 8px 0px;
-}
+	.servicesText {
+		padding: 30px;
+		text-align: justify;
+	}
+	.nav-bottom {
+		margin-top: 105px;
+		padding: 8px 0px;
+	}
+	.gallery {
+		padding: 0px;
+	}
+	.item {
+		color: #fff;
+		margin-top: 7px;
+	}
 }
 
 @media only screen and (max-width: 400px) {
 	.nav-bottom {
-	margin-top: 85px;
-	padding: 8px 0px;
-}
+		margin-top: 85px;
+		padding: 8px 0px;
+	}
 }
